@@ -1,0 +1,116 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f3ea; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.container {
+    max-width: 800px;
+    background-color: #fff;
+    padding: 2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+h2 {
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 0.5rem;
+    color: #007bff;
+}
+
+p {
+    margin: 0;
+}
+.container p {
+    margin-bottom: 20px;
+}
+
+.container h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.container strong {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.container p:last-child {
+    margin-bottom: 0;
+}
+
+/* experiencia laboral */
+.experience-grid {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-gap: 10px;
+}
+
+.experience-grid .job {
+    border-left: 2px solid #007bff;
+    padding-left: 10px;
+}
+.experience h3 {
+    margin-bottom: 0;
+} 
+.job-date{
+    margin-bottom: 200px;
+}
+
+/* sección de perfil */
+.image-profile {
+    display: block;
+    max-width: 200px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+}
+
+.profile-description {
+    text-align: justify;
+}
+
+/* habilidades */
+.skills {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    margin-bottom: 8px;
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-right: 8px;
+}
+.hobbies p {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/* Color adicional */
+.container {
+    border-top: 4px solid #ff5722; /* Color naranja (#ff5722) para el borde superior del contenedor */
+}
